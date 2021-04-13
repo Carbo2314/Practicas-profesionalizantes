@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <meta charset="utf-8" />
+    <title>Registro CVM</title>
+</head>
+<body>
+
+	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-success border-bottom shadow-sm">
+
+	  <a class= "btn btn-success btn-lg text-white">Mi perfil</a>
+
+	  <h5 class="my-0 mx-auto mr-md-auto font-weight-bold text-white">CV Maker</h5>
+
+	  <!--<nav class="my-2 my-md-0 mr-md-3"></nav>-->
+
+	  <a class= "btn btn-success btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Opciones</a>
+		<div class="dropdown-menu">
+			<a class="dropdown-item" href="#">Login</a>
+			<a class="dropdown-item" href="#">Registrarte</a>
+			<a class="dropdown-item" href="#">Configuracion</a>
+		<div class="dropdown-divider"></div>
+		<a class="dropdown-item" href="#">Contactanos</a>
+	    </div>
+	</div>
+
+	<form class="form-signin">
+
+        <div class="container text-center">
+            <img class="mb-4 ml-50" src="Logo-FreeLife.png" alt="" width="120" height="120">
+        </div>
+	  
+      <h1 class="h3 mb-3 font-weight-normal text-center">Porfavor ingrese</h1>
+
+      <p class="text-center" style="transform: rotate(0);">
+        Si desea ingresar como TRABAJADOR <a href="file:///C:/Users/estel/Desktop/Pagina%20practicas%20profesionalizantes/Registro-cliente.html#" class="text-success link">clickea aquí</a>
+      </p>
+
+      <p class="text-center font-weight-bold mt-4" style="transform: rotate(0);">
+        Dirección de correo electronico
+      </p>
+      
+	  <label for="inputEmail" class="sr-only">Direccion de correo electronico </label>
+      <input type="email" id="inputEmail" class="form-control w-25 p-3 mx-auto" placeholder="ejemplo@equisde.com" required autofocus>
+
+      <p class="text-center font-weight-bold mt-2" style="transform: rotate(0);">
+        Contraseña
+      </p>
+      
+      <label for="inputPassword" class="sr-only">Contraseña</label>
+      <input type="password" id="inputPassword" class="form-control w-25 p-3 mx-auto mt-2" minlength="8" maxlength="32" placeholder="De 8 a 32 caracteres" required>
+
+      <p class="text-center font-weight-bold mt-2" style="transform: rotate(0);">
+        Nombre
+      </p>
+
+      <label for="inputName" class="sr-only">Nombre</label>
+      <input type="text" id="inputName" class="form-control w-25 p-3 mx-auto mt-2" placeholder="Nombre" required autofocus>
+      
+      <p class="text-center font-weight-bold mt-2" style="transform: rotate(0);">
+        Apellido
+      </p>
+
+      <label for="inputApellido" class="sr-only">Apellido</label>
+      <input type="text" id="inputApellido" class="form-control w-25 p-3 mx-auto mt-2" placeholder="Apellido" required>
+
+      <p class="text-center font-weight-bold mt-2" style="transform: rotate(0);">
+        Edad (debe ser mayor de 18)
+      </p>
+
+      <label for="inputEdad" class="sr-only">Edad</label>
+      <input type="date" id="inputEdad" class="form-control w-25 p-3 mx-auto mt-2" placeholder="Edad" required>
+
+      <p class="text-center font-weight-bold mt-2" style="transform: rotate(0);">
+        Sexo
+      </p>
+        <div class="text-center" Sexo>
+            <input type="radio" id="male" name="sexo" value="male">
+            <label for="male">Masculino</label><br>
+            <input type="radio" id="female" name="sexo" value="female">
+            <label for="female">Femenino</label><br>
+            <input type="radio" id="other" name="sexo" value="other">
+            <label for="other">Otro</label>
+        </div>
+
+      <p class="text-center font-weight-bold mt-2" style="transform: rotate(0);">
+        Matrícula <a class="text-success text-center">*Opcional</a>
+      </p>
+
+      <label for="inputMatricula" class="sr-only">Matricula</label>
+      <input type="text" id="inputMatricula" class="form-control w-25 p-3 mx-auto mt-2" placeholder="Matrícula" required autofocus>
+
+      <p class="text-center font-weight-bold mt-2" style="transform: rotate(0);">
+        Especialidad
+      </p>
+
+      <label for="inputEspecialidad" class="sr-only">Especialidad</label>
+      <input type="text" id="inputEspecialidad" class="form-control w-25 p-3 mx-auto mt-2" placeholder="Especialidad" required autofocus>
+      
+	  <div class="checkbox mb-3 text-center">
+		<label>
+		  <input type="checkbox" value="remember-me"> Recuerdame
+		</label>
+	  </div>
+	  <button class="btn btn-lg btn-success btn-block w-50 p-3 mx-auto" type="submit">Ingresar</button>
+	  <p class="mt-5 mb-3 text-muted text-center">&copy; 2017-2020</p>
+
+	</form>
+</body>
+
+
+</html>
